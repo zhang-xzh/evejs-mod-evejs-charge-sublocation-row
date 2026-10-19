@@ -1,11 +1,11 @@
 {
   "author": {
-    "id": "au-mva40uiw90kt",
-    "keyId": "01ed0fb1c32c",
+    "id": "au-mvf2lwpltupu",
+    "keyId": "020ed1eebd16",
     "name": "HRSKNK"
   },
   "category": "玩法",
-  "changelog": "船上装了弹药/矿晶/脚本后，换船或重新上线时工业槽位偶尔显示成 0/1，行星面板还会误提示需要 Omega。修复后恢复正常。",
+  "changelog": "支持EveJS-261018.1",
   "conflicts": [],
   "delisted": false,
   "description": "船上装了弹药/矿晶/脚本后，换船或重新上线时工业槽位偶尔显示成 0/1，行星面板还会误提示需要 Omega。修复后恢复正常。",
@@ -14,24 +14,25 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-charge-sublocation-row/releases/download/v1.0.0/evejs-charge-sublocation-row-1.0.0.zip"
+      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-charge-sublocation-row/releases/download/v1.0.1/evejs-charge-sublocation-row-1.0.1.zip"
     }
   ],
   "evejsVersions": [
-    "0.12.9"
+    "0.12.9",
+    "261018.x"
   ],
   "featured": false,
   "highlights": [],
   "history": [],
   "id": "evejs-charge-sublocation-row",
-  "publishedAt": "2026-10-16",
+  "publishedAt": "2026-10-19",
   "readme": [
     "装填到子位（sub-location）的弹药行不是 blue.DBRow，导致舰船激活时的大脑属性没有被套用。补丁让子位弹药行按 DBRow 返回，激活后属性正确生效。"
   ],
   "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-charge-sublocation-row",
   "requiresRestart": true,
-  "sha256": "2c32d6b22a366353445e2f177d7dcb049daf75a0308f90e5bfe4022643bb6073",
-  "sizeBytes": 6204,
+  "sha256": "21481c03785bce3b617cc17cf7756293d8416f2c02d53a04b2826342442d77fd",
+  "sizeBytes": 6191,
   "tags": [],
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
